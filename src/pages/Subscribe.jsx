@@ -10,7 +10,7 @@ const Subscribe = () => {
                 <div className="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores, quas consequuntur optio maxime!</div>
                 <div className="subscribe_area">
                     <input type="text" placeholder='Enter your Email Address'/>
-                    <div className='cta'>Subscribe Now <AiFillCaretRight/></div>
+                    <div className='cta'>Subscribe <AiFillCaretRight/></div>
                 </div>    
             </div>
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import "../style/home.css"
 import { LuCalendarClock } from "react-icons/lu"
 import { AiFillRightCircle } from "react-icons/ai"
+import slides from "../data/Carousel.json"
+
 
 import Carousel from '../components/Carousel/Carousel'
 import Counter from '../components/counter/Counter'
@@ -51,7 +53,7 @@ const Home = () => {
     return (
         <div className="comtainer">
 
-            <Carousel />
+            <Carousel data={slides}/>
 
             <div className='upcomming_container'>
 
@@ -115,7 +117,7 @@ const Home = () => {
                     {
                         questions.map((item, index) => {
                             return (
-                              <Accordion   item={item} index={index}/>
+                              <Accordion key={index}   item={item} index={index}/>
                             )
                         })
                     }
