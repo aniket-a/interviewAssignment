@@ -1,0 +1,31 @@
+.counterContainer{
+    width: calc(100% - 10%);
+    margin: 3rem 0;
+    background-color: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.counterdiv{
+    flex: 1;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.counterdiv .title{
+    color: #002F5F;
+}
+.counter span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #002F5F;
+}
+.counter p{
+    font-weight: 700;
+    color: #002F5F;
+}
+.details p{
+    color: #002F5F;
+}

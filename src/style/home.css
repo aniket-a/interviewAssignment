@@ -1,0 +1,154 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.comtainer{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upcomming_container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    position: relative;
+}
+.exam_frame{
+    margin: 0 2rem;
+    flex: 1;
+    max-width: 300px;
+    margin: 2rem;
+}
+
+.main{
+    border-right: 2px solid #D1D1D1;
+}
+.exam_frame .title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #092852;
+}
+.exam_frame p{
+    margin-top: 0.5rem;
+    color: grey;
+}
+.cal_info{
+    display: flex;
+    flex-direction: column;
+}
+.cal_info .date{
+    color: #092852;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.schedule{
+    display: flex!important;
+    justify-content: center;
+    align-items: start;
+}
+.schedule span{
+    color: grey;
+    font-size: 1.1rem;
+}
+.cal_icon svg{
+    font-size: 3rem;
+}
+
+.slider_container::-webkit-scrollbar{
+    display: none;
+}
+
+.slider_container {
+    width: 90%;
+    margin: 1rem 0;
+    display: flex;
+    overflow-x: scroll; 
+    white-space: nowrap;
+}
+
+.card {
+    background-color: #12406F;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    padding: 1rem;
+    width: 380px;
+    margin-right: 20px;
+    flex-shrink: 0; 
+    padding: 2rem;
+    
+}
+
+.card_details{
+    text-wrap:wrap
+}
+
+.card_details h2{
+    margin-bottom: 1rem;
+}
+
+.btn_info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+.btn_info svg{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+@media (max-width:700px) {
+    .upcomming_container{
+        flex-direction: column;
+        justify-content: center!important;
+    }
+    .main{
+        border: none;
+    }
+    .question_row{
+        padding: 0 1rem!important;
+    }
+}
+
+
+.faq_container{
+    width: calc(100% - 10%);
+    /* border: 2px solid ; */
+    /* height: 400px; */
+    text-align: center;
+}
+.faq_container .title{
+    font-size: 2.5rem;
+    color: #092852;
+    font-weight: 600;
+}
+.question_row{
+    display: flex;
+    justify-content: space-between;
+    padding:0 0rem;
+    text-align: start;
+}
+.togglebtn{
+    cursor: pointer;
+}
+
+.close, .open{
+    color: #12406F;
+    font-size: 1.5rem!important;
+}
+
+.ans_row{
+    transition: all 0.5s ea;
+    padding: 0 4rem;
+    text-align: start;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}

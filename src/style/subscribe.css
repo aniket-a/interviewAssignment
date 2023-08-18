@@ -1,0 +1,105 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.subscribeContaier{ 
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/preefooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    padding: 2rem;
+    width: calc(100% - 20%);
+}
+.subscribe .title{
+    font-size: 2rem;
+    color: #12406F;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.subscribe .info{
+    width: 32%;
+    margin: 1rem 0;
+}
+.subscribe_area{
+    display: flex;
+    width: 50%;
+
+}
+.subscribe_area input{
+    width: calc(100% - 40%);
+    border-radius: 10px;
+    margin-right: 1rem;
+    font-size: 20px;
+    padding-left: 2rem;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 9px 3px #F0F0F0;
+}
+.subscribe_area input::placeholder{
+    padding-left: 1rem;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #12406F;
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:680px) {
+    .subscribe{
+        padding: 2rem;
+        width: calc(100% - 10%);
+    }
+    .subscribe .title{
+        font-size: 2rem;
+        color: #12406F;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .subscribe .info{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .subscribe_area{
+        display: flex;
+        width: 100%;
+    
+    }
+    .subscribe_area input{
+        width: calc(100% - 20%);
+        border-radius: 10px;
+        margin-right: 0.5rem;
+        font-size: 20px;
+        padding-left: 2rem;
+        border: none;
+        outline: none;
+        box-shadow: 1px 1px 9px 3px #F0F0F0;
+    }
+    .subscribe_area input::placeholder{
+        padding-left: 0.2rem;
+        font-size: 13px;
+    }
+    
+    .cta{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #12406F;
+        color: whitesmoke;
+        padding:0.8rem 1rem ;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+}

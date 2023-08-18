@@ -1,0 +1,62 @@
+.footer_frame {
+    background-color: #092852;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.f_sections {
+    flex: 1; 
+    max-width: 400px; 
+    margin: 1rem; 
+    box-sizing: border-box;
+}
+
+.copyRight {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #002F5F;
+}
+
+.titles{
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.follow{
+    text-align: center;
+}
+.location{
+    display: flex;
+    margin: 1rem 0;
+}
+.location svg{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.location span{
+    color: white;
+}
+
+.f_sections ul li {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.social_links{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.social_links svg{
+    color: white;
+    margin: 1rem 1rem;
+    font-size: 2.5rem;
+}
